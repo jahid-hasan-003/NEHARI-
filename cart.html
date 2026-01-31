@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Details - NEHARI</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">NEHARI</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#menu">Menu</a></li>
+      <li>
+        <a href="cart.html">Cart
+          <span id="cart-count" class="cart-badge">0</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Order Details Content -->
+  <section class="order-container">
+    <h1>Your Order Summary</h1>
+    <p class="order-intro">Review your items and proceed to checkout.</p>
+
+    <!-- Order Items -->
+    <div class="order-items" id="order-items">
+
+    </div>
+
+    <!-- Pricing Breakdown -->
+    <div class="pricing">
+      <h2>Pricing Details</h2>
+      <div class="price-item">
+        <span>Subtotal</span>
+        <span id="subtotal">$0.00</span>
+      </div>
+      <div class="price-item">
+        <span>Delivery Fee</span>
+        <span id="delivery-fee">$4.99</span>
+      </div>
+      <div class="price-item">
+        <span>Tax (8%)</span>
+        <span id="tax">$0.00</span>
+      </div>
+      <div class="price-item total">
+        <span>Total</span>
+        <span id="total">$0.00</span>
+      </div>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="order-actions">
+      <button class="btn proceed">Proceed to Checkout</button>
+      <a href="index.html" class="btn back">Continue Shopping</a>
+    </div>
+  </section>
+
+  <!-- Footer  -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="logo">NEHARI</div>
+      <p>Delivering happiness one meal at a time. © 2026 NEHARI Foods.</p>
+      <ul class="footer-links">
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

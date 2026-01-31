@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEHARI - Delicious Food Delivery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">NEHARI</div>
+    <ul class="nav-links">
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li>
+        <a href="cart.html">Cart
+          <span id="cart-count" class="cart-badge">0</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to NEHARI</h1>
+      <p>Your go-to spot for mouth-watering meals delivered hot and fresh!</p>
+      <button class="hero-btn">Explore Menu</button>
+    </div>
+  </section>
+
+
+  <section class="search-section">
+    <div class="search-container">
+      <input type="text" placeholder="Search for food or restaurant..." class="search-bar">
+      <button class="search-btn">Go</button>
+    </div>
+    <div class="categories">
+      <button class="category-btn active">All</button>
+      <button class="category-btn">Pizza</button>
+      <button class="category-btn">Burger</button>
+      <button class="category-btn">Biriyani</button>
+      <button class="category-btn">Drinks</button>
+      <button class="category-btn">Dessert</button>
+      <button class="category-btn">Pasta</button>
+      <button class="category-btn">Salads</button>
+    </div>
+  </section>
+
+
+  <main class="menu-container" id="menu">
+
+    <!-- Pizza Category -->
+    <section class="food-category">
+      <h2>Irresistible Pizzas</h2>
+      <p class="category-desc">Cheesy, saucy, and baked to perfection. Pick your favorite!</p>
+      <div class="food-grid">
+        <div class="food-card">
+          <img src="img/Margherita Pizza.jpg" alt="Margherita Pizza">
+          <h3>Margherita Pizza</h3>
+          <p class="price">$12.99</p>
+          <p class="desc">Classic tomato, mozzarella, and basil delight.</p>
+          <div class="card-actions">
+            <button class="btn add-to-cart">Add to Cart</button>
+            <button class="btn buy-now">Buy Now</button>
+          </div>
+        </div>
+        <div class="food-card">
+          <img src="img/Pepparoni Pizza-2.jpg" alt="Pepperoni Pizza">
+          <h3>Pepperoni Pizza</h3>
+          <p class="price">$14.99</p>
+          <p class="desc">Loaded with spicy pepperoni and extra cheese.</p>
+          <div class="card-actions">
+            <button class="btn add-to-cart">Add to Cart</button>
+            <button class="btn buy-now">Buy Now</button>
+          </div>
+        </div>
+        <div class="food-card">
+          <img src="img/Veggie Supreme Pizza 3.jpg" alt="Veggie Pizza">
+          <h3>Veggie Supreme Pizza</h3>
+          <p class="price">$13.49</p>
+          <p class="desc">Fresh veggies on a crispy crust.</p>
+          <div class="card-actions">
+            <button class="btn add-to-cart">Add to Cart</button>
+            <button class="btn buy-now">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="food-category">
+      <h2>Juicy Burgers</h2>
+      <p class="category-desc">Grilled to perfection with all the fixings.</p>
+      <div class="food-grid">
+        <div class="food-card">
+          <img src="img/Classic Cheeseburger.jpg" alt="Classic Burger">
+          <h3>Classic Cheeseburger</h3>
+          <p class="price">$8.99</p>
+          <p class="desc">Beef patty, cheese, lettuce, and tomato.</p>
+          <div class="card-actions">
+            <button class="btn add-to-cart">Add to Cart</button>
+            <button class="btn buy-now">Buy Now</button>
+          </div>
+        </div>
+        <div class="food-card">
+          <img src="img/Spicy Chicken Burger.jpg" alt="Chicken Burger">
+          <h3>Spicy Chicken Burger</h3>
+          <p class="price">$9.49</p>
+          <p class="desc">Crispy chicken with hot sauce kick.</p>
+          <div class="card-actions">
+            <button class="btn add-to-cart">Add to Cart</button>
+            <button class="btn buy-now">Buy Now</button>
+          </div>
+        </div>
+        <div class="food-card">
+          <img src="img/Veggie Burger.jpg" alt="Veggie Burger">
+          <h3>Veggie Burger</h3>
+          <p class="price">$8.49</p>
+          <p class="desc">Plant-based patty with fresh toppings.</p>
+          <div class="card-actions">
+            <button class="btn add-to-cart">Add to Cart</button>
+            <button class="btn buy-now">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Biriyani Category -->
+    <section class="food-category">
+      <h2>Aromatic Biriyanis</h2>
+      <p class="category-desc">Spiced rice dishes that melt in your mouth.</p>
+      <div class="food-grid">
+        <div class="food-card">
+          <img src="img/Chicken Biriyani.jpg" alt="Chicken Biriyani">
+          <h3>Chicken Biriyani</h3>
+          <p class="price">$11.99</p>
+          <p class="desc">Tender chicken with fragrant rice.</p>
+          <div class="card-actions">
+            <button class="btn add-to-cart">Add to Cart</button>
+            <button class="btn buy-now">Buy Now</button>
+          </div>
+        </div>
+        <div class="food-card">
+          <img src="img/Vegetable briyani.jpg" alt="Veg Biriyani">
+          <h3>Vegetable Biriyani</h3>
+          <p class="price">$10.49</p>
+          <p class="desc">Mixed veggies in spiced rice.</p>
+          <div class="card-actions">
+            <button class="btn add-to-cart">Add to Cart</button>
+            <button class="btn buy-now">Buy Now</button>
+          </div>
+        </div>
+        <div class="food-card">
+          <img src="img/Mutton Briyani.jpg" alt="Veg Biriyani">
+          <h3>Mutton Briyani</h3>
+          <p class="price">$14.20</p>
+          <p class="desc">Mixed veggies in spiced rice.</p>
+          <div class="card-actions">
+            <button class="btn add-to-cart">Add to Cart</button>
+            <button class="btn buy-now">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Drinks Category -->
+    <section class="food-category">
+      <h2>Refreshing Drinks</h2>
+      <p class="category-desc">Quench your thirst with our cool beverages.</p>
+      <div class="food-grid">
+        <div class="food-card">
+          <img src="img/Classic Cola.jpg" alt="Cola">
+          <h3>Classic Cola</h3>
+          <p class="price">$3.49</p>
+          <p class="desc">Fizzy and refreshing.</p>
+          <div class="card-actions">
+            <button class="btn add-to-cart">Add to Cart</button>
+            <button class="btn buy-now">Buy Now</button>
+          </div>
+        </div>
+        <div class="food-card">
+          <img src="img/Fresh Lemonade.jpg" alt="Lemonade">
+          <h3>Fresh Lemonade</h3>
+          <p class="price">$4.99</p>
+          <p class="desc">Tangy and sweet homemade style.</p>
+          <div class="card-actions">
+            <button class="btn add-to-cart">Add to Cart</button>
+            <button class="btn buy-now">Buy Now</button>
+          </div>
+        </div>
+        <div class="food-card">
+          <img src="img/pepsi-5152332_1920.jpg" alt="Cola">
+          <h3>Pepsi</h3>
+          <p class="price">$2.49</p>
+          <p class="desc">Fizzy and refreshing.</p>
+          <div class="card-actions">
+            <button class="btn add-to-cart">Add to Cart</button>
+            <button class="btn buy-now">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dessert Category -->
+    <section class="food-category">
+      <h2>Sweet Desserts</h2>
+      <p class="category-desc">End your meal on a high note.</p>
+      <div class="food-grid">
+
+        <div class="food-card">
+          <img src="img/Chocolate Lava Cake.jpg" alt="Chocolate Cake">
+          <h3>Chocolate Lava Cake</h3>
+          <p class="price">$5.99</p>
+          <p class="desc">Gooey chocolate center.</p>
+          <div class="card-actions">
+            <button class="btn add-to-cart">Add to Cart</button>
+            <button class="btn buy-now">Buy Now</button>
+          </div>
+        </div>
+        <div class="food-card">
+          <img src="img/Vanilla Ice Cream.jpg" alt="Ice Cream">
+          <h3>Vanilla Ice Cream</h3>
+          <p class="price">$4.49</p>
+          <p class="desc">Creamy and classic.</p>
+          <div class="card-actions">
+            <button class="btn add-to-cart">Add to Cart</button>
+            <button class="btn buy-now">Buy Now</button>
+          </div>
+        </div>
+        <div class="food-card">
+          <img src="img/Pastry.jpg" alt="Ice Cream">
+          <h3>Pastry</h3>
+          <p class="price">$6.25</p>
+          <p class="desc">Creamy and classic.</p>
+          <div class="card-actions">
+            <button class="btn add-to-cart">Add to Cart</button>
+            <button class="btn buy-now">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pasta Category -->
+    <section class="food-category">
+      <h2>Delicious Pastas</h2>
+      <p class="category-desc">Italian favorites with a twist.</p>
+      <div class="food-grid">
+        <div class="food-card">
+          <img src="img/noodles.jpg" alt="Spaghetti">
+          <h3>Spaghetti Bolognese</h3>
+          <p class="price">$10.99</p>
+          <p class="desc">Rich meat sauce over al dente pasta.</p>
+          <div class="card-actions">
+            <button class="btn add-to-cart">Add to Cart</button>
+            <button class="btn buy-now">Buy Now</button>
+          </div>
+        </div>
+        <div class="food-card">
+          <img src="img/Penne Arrabiata.jpg" alt="Penne">
+          <h3>Penne Arrabiata</h3>
+          <p class="price">$9.99</p>
+          <p class="desc">Spicy tomato sauce with herbs.</p>
+          <div class="card-actions">
+            <button class="btn add-to-cart">Add to Cart</button>
+            <button class="btn buy-now">Buy Now</button>
+          </div>
+        </div>
+        <div class="food-card">
+          <img src="img/creamy-mushroom-chicken-pasta-.jpg" alt="Penne">
+          <h3>Creamy Mushroom</h3>
+          <p class="price">$11.99</p>
+          <p class="desc">Spicy tomato sauce with herbs.</p>
+          <div class="card-actions">
+            <button class="btn add-to-cart">Add to Cart</button>
+            <button class="btn buy-now">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Salads Category -->
+    <section class="food-category">
+      <h2>Fresh Salads</h2>
+      <p class="category-desc">Healthy and crisp options for lighter meals.</p>
+      <div class="food-grid">
+        <div class="food-card">
+          <img src="img/Caesar Salad.jpg" alt="Caesar Salad">
+          <h3>Caesar Salad</h3>
+          <p class="price">$7.99</p>
+          <p class="desc">Romaine, croutons, and creamy dressing.</p>
+          <div class="card-actions">
+            <button class="btn add-to-cart">Add to Cart</button>
+            <button class="btn buy-now">Buy Now</button>
+          </div>
+        </div>
+        <div class="food-card">
+          <img src="img/Greek Salad.jpg" alt="Greek Salad">
+          <h3>Greek Salad</h3>
+          <p class="price">$8.49</p>
+          <p class="desc">Feta, olives, and fresh veggies.</p>
+          <div class="card-actions">
+            <button class="btn add-to-cart">Add to Cart</button>
+            <button class="btn buy-now">Buy Now</button>
+          </div>
+        </div>
+        <div class="food-card">
+          <img src="img/Gourmet salad .jpg" alt="Greek Salad">
+          <h3>Gourmet salad</h3>
+          <p class="price">$7.49</p>
+          <p class="desc">Feta, olives, and fresh veggies.</p>
+          <div class="card-actions">
+            <button class="btn add-to-cart">Add to Cart</button>
+            <button class="btn buy-now">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <section class="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial-card">
+        <p>"Best pizza in town! Fast delivery too."</p>
+        <span>- Alex J.</span>
+      </div>
+      <div class="testimonial-card">
+        <p>"The biriyani is authentic and flavorful."</p>
+        <span>- Sarah K.</span>
+      </div>
+      <div class="testimonial-card">
+        <p>"Love the variety and quick service."</p>
+        <span>- Mike L.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="logo">NEHARI</div>
+      <p>Delivering happiness one meal at a time. © 2026 NEHARI Foods.</p>
+      <ul class="footer-links">
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
